@@ -1,0 +1,14 @@
+{
+  "name": "@quantara/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public token launch and sale contracts for Quantara on QMS Testnet",
+  "license": "MIT",
+  "scripts": {
+    "build": "forge build --root contracts",
+    "test": "forge test --root contracts"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "5.4.0"
+  }
+}

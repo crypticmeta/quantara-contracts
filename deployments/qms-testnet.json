@@ -1,0 +1,125 @@
+{
+  "network": "QMS Testnet",
+  "chainId": 19480,
+  "rpcUrl": "https://rpc.testnet.qms.finance",
+  "explorerUrl": "https://testnet.qmsscan.io",
+  "genesisHash": "0x96a21c7d2fcd8893fd05372f543167baebba28ba96b484d3cc672cf3a607a492",
+  "deploymentStartedAt": "2026-11-17T16:11:14.223Z",
+  "confirmations": 2,
+  "factoryBlock": 374018,
+  "compiler": {
+    "version": "0.8.30",
+    "evmVersion": "prague",
+    "optimizerRuns": 200,
+    "viaIR": true,
+    "metadataBytecodeHash": "none"
+  },
+  "contracts": {
+    "LaunchFactory": {
+      "constructorArgs": [
+        "0x4B38Ee5527A338AA2382f891C6ae2926D3715283",
+        100
+      ],
+      "initBytecodeHash": "0xf3cd54455d628fed0be1a9c045eb40b6789b6bf37deb6e326dd9a45114028c06",
+      "transaction": "0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "address": "0x8ca708730ea4bbe57c706cd8edf65ac91f5757f2",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0x8ca708730ea4bbe57c706cd8edf65ac91f5757f2?tab=contract",
+      "sourceVerification": "partial"
+    },
+    "TokenFactory": {
+      "address": "0x63F2F329E7d16c24a1E4C9CAb5BB4Fcd4A604F3A",
+      "transaction": "0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0x63F2F329E7d16c24a1E4C9CAb5BB4Fcd4A604F3A?tab=contract",
+      "sourceVerification": "partial"
+    },
+    "ClaimManager": {
+      "address": "0x6Cb5AC4c0E6B77e21E819BA9D10937792495021b",
+      "transaction": "0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0x6Cb5AC4c0E6B77e21E819BA9D10937792495021b?tab=contract",
+      "sourceVerification": "partial"
+    },
+    "FeeController": {
+      "address": "0x8147F2165d6D266446fdEb0F3fE69063800Fd89F",
+      "transaction": "0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0x8147F2165d6D266446fdEb0F3fE69063800Fd89F?tab=contract",
+      "sourceVerification": "partial"
+    },
+    "FairLaunchDeployer": {
+      "address": "0xAB77CB90D04eaa49C945bff4b4fd6D744a37a513",
+      "transaction": "0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x4d605fa57c4d7794cbf069f7cec5b2c02e55b6b0f13c47d9074b7b2c8903e1e0",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0xAB77CB90D04eaa49C945bff4b4fd6D744a37a513?tab=contract",
+      "sourceVerification": "partial"
+    }
+  },
+  "testTokens": {
+    "QLT": {
+      "name": "Quantara Launch Test",
+      "symbol": "QLT",
+      "decimals": 18,
+      "units": "1000000",
+      "creator": "0x4B38Ee5527A338AA2382f891C6ae2926D3715283",
+      "transaction": "0x47bd7c3229c8238f513b24b396043d0f1678007eb2e5d5faa2a5d05ed546022f",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x47bd7c3229c8238f513b24b396043d0f1678007eb2e5d5faa2a5d05ed546022f",
+      "address": "0x7D3b7CD06381B55EDd8220f2C644A34247B6Be85",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0x7D3b7CD06381B55EDd8220f2C644A34247B6Be85?tab=contract",
+      "block": "374021",
+      "sourceVerification": "partial"
+    },
+    "QPT": {
+      "name": "Quantara Public Test",
+      "symbol": "QPT",
+      "decimals": 6,
+      "units": "1000000",
+      "creator": "0x03ed5ee9F6A5258871E5126956DaC4bdE94DDfEa",
+      "transaction": "0x9fee882a587c18671ac90fb93ac1ca01e19bda81a4d812877d7005f31b5a4b97",
+      "transactionUrl": "https://testnet.qmsscan.io/tx/0x9fee882a587c18671ac90fb93ac1ca01e19bda81a4d812877d7005f31b5a4b97",
+      "address": "0x6D0c1FE4bD5C3c5525936fb8955682F856C1fEdC",
+      "sourceUrl": "https://testnet.qmsscan.io/address/0x6D0c1FE4bD5C3c5525936fb8955682F856C1fEdC?tab=contract",
+      "block": "374024",
+      "sourceVerification": "partial"
+    }
+  },
+  "quantDemo": {
+    "name": "Quantara Test Token",
+    "symbol": "QUANT",
+    "tokenAddress": "0x1A335b614da4cA43152d710b7E050b5a76D38ad0",
+    "saleAddress": "0xA6186794795B6DE28f41D4017c253d6ce21E1d8c",
+    "creator": "0xFc0AE764368Ac3e1945782f6a207a2d0D2Fa35E7",
+    "tokenDecimals": 18,
+    "totalSupply": "1000000000000000000000000",
+    "paymentAsset": "QMS",
+    "opensAt": "2026-11-17T17:25:14+00:00",
+    "closesAt": "2026-11-24T17:25:14+00:00",
+    "termsInBaseUnits": {
+      "kind": 0,
+      "inventory": "100000000000000000000000",
+      "price": "1000000000000000",
+      "start": "1794936314",
+      "end": "1795541114",
+      "minContribution": "1000000000000000",
+      "maxContribution": "100000000000000000",
+      "softCap": "0",
+      "hardCap": "100000000000000000000"
+    },
+    "tokenCreation": {
+      "hash": "0xf152eda252566a3eb5fdf113ad509be9be602016d7cde425125eb97e613b9bd4",
+      "url": "https://testnet.qmsscan.io/tx/0xf152eda252566a3eb5fdf113ad509be9be602016d7cde425125eb97e613b9bd4",
+      "block": "374395"
+    },
+    "publishedSale": {
+      "hash": "0x7bca61400670d4ac4e410f739d57e712409b94a49c9ee117e1a82d785fddf298",
+      "url": "https://testnet.qmsscan.io/tx/0x7bca61400670d4ac4e410f739d57e712409b94a49c9ee117e1a82d785fddf298",
+      "block": "374401"
+    },
+    "tokenSourceUrl": "https://testnet.qmsscan.io/address/0x1A335b614da4cA43152d710b7E050b5a76D38ad0?tab=contract",
+    "saleSourceUrl": "https://testnet.qmsscan.io/address/0xA6186794795B6DE28f41D4017c253d6ce21E1d8c?tab=contract",
+    "purchaseUrl": "https://usequantara.com/launch/0xA6186794795B6DE28f41D4017c253d6ce21E1d8c?demo=1#participate",
+    "tokenSourceVerification": "partial",
+    "saleSourceVerification": "partial"
+  }
+}
